@@ -2,6 +2,7 @@ Para poder procesar este documento de manera adecuada tienes que seguir los sigu
 0.- Crea la siguiente ruta de carpetas: /content/data_lake/raw
 1.- Si quieres evitar tener que crear las carpetas manualmente ejecuta el segundo bloque de codigo dentro del propio archivo:
 
+```text
 import os
 
 carpetas = [
@@ -15,7 +16,7 @@ for carpeta in carpetas:
     os.makedirs(carpeta, exist_ok=True)
 
 print("Carpetas creadas correctamente.")
-
+````
 2.- Subir los siguientes archivos a la siguiente ruta: /content/data_lake/raw
 
 customers.csv
