@@ -19,7 +19,7 @@ print("Carpetas creadas correctamente.")
 2.- Subir los siguientes archivos a la siguiente ruta: /content/data_lake/raw
 
 customers.csv
-
+```csv
 customer_id,name,city,age
 1,Alice,Madrid,25
 2,Bob,Chicago,34
@@ -27,9 +27,11 @@ customer_id,name,city,age
 4,Diana,Chicago,41
 5,Eve,Madrid,22
 6,Frank,Berlin,37
+```
 
 productos.json
 
+```json
 [
     {
         "product_id": 101,
@@ -62,9 +64,10 @@ productos.json
         "price": 150
     }
 ]
-
+```
 orders.txt
 
+```text
 1001|1|101|1
 1002|2|102|2
 1003|1|103|1
@@ -73,4 +76,5 @@ orders.txt
 1006|5|105|2
 1007|6|103|3
 1008|2|105|1
+```
 
